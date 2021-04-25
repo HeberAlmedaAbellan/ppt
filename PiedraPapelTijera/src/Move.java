@@ -24,6 +24,7 @@ public class Move{
 
     public int beats(Move other){
 	    return MoveWords.checkWinner(this.move, other.getMove());
-    }  
+    }
+
 }
 
